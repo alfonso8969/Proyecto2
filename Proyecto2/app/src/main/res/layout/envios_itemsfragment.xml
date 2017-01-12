@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/NombreCompañia"
+            android:textColor="?colorPrimary"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_nombre_compañiaEnvios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/NombreCompañia"
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Telefono"
+            android:textColor="?colorPrimary"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_telefonoEnvios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/Telefono"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+

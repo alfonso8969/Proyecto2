@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/añadirImagen"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_imagen"
+            />
+
+        <EditText
+            android:id="@+id/edt_imagen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/añadirImagen"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Nombre"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_nombre"/>
+
+        <EditText
+            android:id="@+id/edt_nombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="textPersonName"
+            tools:hint="@string/Nombre"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Apellido"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_apellido"/>
+
+        <EditText
+            android:id="@+id/edt_apellido"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="textPersonName"
+            tools:hint="@string/Apellido"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/TratoCortesia"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_traCort"/>
+
+        <EditText
+            android:id="@+id/edt_traCort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="Mr.,Ms. o lo que convenga"
+            />
+
+        <Button
+            android:id="@+id/btn_fechaNacimiento"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/fechaNacimiento"
+            android:textColor="@color/colorPrimary"
+          />
+
+        <TextView
+            android:id="@+id/tv_fechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/fechaNacimiento"
+            />
+
+        <Button
+            android:id="@+id/btn_fechaContratacion"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/fechaContratacion"
+            android:textColor="@color/colorPrimary"
+           />
+
+        <TextView
+            android:id="@+id/tv_fechaContratacion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/fechaContratacion"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Puesto"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_puesto"/>
+
+        <EditText
+            android:id="@+id/edt_puesto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/Puesto" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Telefono"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_telefono"/>
+
+        <EditText
+            android:id="@+id/edt_telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="phone"
+            tools:hint="@string/Telefono" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Extension"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_extension"/>
+
+        <EditText
+            android:id="@+id/edt_extension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="phone"
+            tools:hint="@string/Extension" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Direccion"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_direccion"/>
+
+        <EditText
+            android:id="@+id/edt_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/Direccion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/CodPos"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_codPostal"/>
+
+        <EditText
+            android:id="@+id/edt_codPostal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/CodPos" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Pais"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_pais"/>
+
+        <EditText
+            android:id="@+id/edt_pais"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/Pais" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Ciudad"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_ciudad"/>
+
+        <EditText
+            android:id="@+id/edt_ciudad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/Ciudad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Region"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_region"/>
+
+        <EditText
+            android:id="@+id/edt_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/Region" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/reportar"
+            android:textColor="@color/colorPrimary"
+            android:labelFor="@+id/edt_reportar"/>
+
+        <EditText
+            android:id="@+id/edt_reportar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="number"
+            tools:hint="@string/reportar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Notas"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="HardcodedText"
+            android:labelFor="@+id/edt_notas"/>
+
+        <EditText
+            android:id="@+id/edt_notas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/large_text" />
+
+    </LinearLayout>
+</ScrollView>

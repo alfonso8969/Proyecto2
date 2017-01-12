@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_account_circle"
+            android:contentDescription="@string/app_name"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/NombreProducto"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_nombreProducto"/>
+
+        <TextView
+            android:id="@+id/tv_nombreProducto"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/NombreProducto"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/ProveedorID"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_proveedorId"/>
+
+        <TextView
+            android:id="@+id/tv_proveedorId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/ProveedorID"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/nombreProveedor"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_nombreProveedor"
+            />
+
+        <TextView
+            android:id="@+id/tv_nombreProveedor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/nombreProveedor"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/CategoriaID"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_categoriaID"
+            />
+
+        <TextView
+            android:id="@+id/tv_categoriaID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/CategoriaID" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/nombreCategoria"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_nombreCategoria"
+            />
+
+        <TextView
+            android:id="@+id/tv_nombreCategoria"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/nombreCategoria"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/CantidadPorUnidad"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_CantidadPorUnidad"/>
+
+        <TextView
+            android:id="@+id/tv_CantidadPorUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/CantidadPorUnidad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/PrecioPorUnidad"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_PrecioPorUnidad"
+            />
+
+        <TextView
+            android:id="@+id/tv_PrecioPorUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/PrecioPorUnidad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/UnidadesEnStock"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_UnidadesEnStock"/>
+
+        <TextView
+            android:id="@+id/tv_UnidadesEnStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/UnidadesEnStock" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/UnidadesEnPedido"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_UnidadesEnPedido"/>
+
+        <TextView
+            android:id="@+id/tv_UnidadesEnPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/UnidadesEnPedido" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/NivelDeReaprovisionamiento"
+            android:textColor="?colorPrimary"
+            tools:ignore="HardcodedText"
+            android:labelFor="@+id/tv_NivelDeReaprovisionamiento"
+            />
+
+        <TextView
+            android:id="@+id/tv_NivelDeReaprovisionamiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/NivelDeReaprovisionamiento" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Interrumpido"
+            android:textColor="?colorPrimary"
+            tools:ignore="HardcodedText"
+            android:labelFor="@+id/tv_Interrumpido"
+            />
+
+        <TextView
+            android:id="@+id/tv_Interrumpido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/Interrumpido" />
+
+
+
+    </LinearLayout>
+</ScrollView>

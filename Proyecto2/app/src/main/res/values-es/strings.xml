@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Good Eats</string>
+    <string name="action_settings">Settings</string>
+    <string name="boton">Cambiar dato</string>
+    <string name="CambiarActividad">Cambiar Actividad</string>
+    <string name="secText">Segunda Actividad</string>
+    <string name="texto">Hola Alfonso!!!</string>
+    <string name="textViewEncabezado">Seleccione Tabla</string>
+    <string name="btnTablas">Tablas</string>
+    <string name="Employees">Empleados</string>
+    <string name="Customers">Clientes</string>
+    <string name="Products">Productos</string>
+
+
+</resources>
+

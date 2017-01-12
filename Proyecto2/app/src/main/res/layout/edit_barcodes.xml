@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="?listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NombreProducto"
+        android:textSize="20sp"
+        android:labelFor="@+id/edtNombreProducto"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/edtNombreProducto"
+        android:hint="@string/NombreProducto"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceListItem"
+        android:layout_marginEnd="102dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/FormatoScanner"
+        android:textSize="20sp"
+        android:labelFor="@+id/tvFormato"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tvFormato"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceListItem"
+        tools:text="@string/FormatoScanner"
+        android:layout_marginEnd="102dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CodigoBarras"
+        android:textSize="20sp"
+        android:labelFor="@+id/tvResultado"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceListItem"
+        tools:text="@string/CodigoBarras"
+        android:layout_marginEnd="102dp"
+        />
+</LinearLayout>

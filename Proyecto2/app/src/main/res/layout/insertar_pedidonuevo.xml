@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        tools:ignore="ExtraText"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/NumeroPedido"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_numeroPedido"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_numeroPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="16sp"
+            tools:hint="@string/NumeroPedido"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/ClienteID"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
+            android:labelFor="@+id/spi_clienteIDPedido"
+            />
+
+        <Spinner
+            android:id="@+id/spi_clienteIDPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:spinnerMode="dropdown"
+            android:background="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_fechaPedido"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/fechaPedido"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
+
+            />
+        <TextView
+            android:id="@+id/tv_fechaPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/fechaPedido"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/btn_fechaRequerida"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/fechaRequerida"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/tv_fechaRequerida"
+            tools:hint="@string/fechaRequerida"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/btn_fechaEntrega"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/fechaEntrega"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/tv_fechaEntrega"
+            tools:hint="@string/fechaEntrega"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/NombreCompañia"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
+            android:labelFor="@+id/tv_nombre_compañiaPedido"
+            />
+
+        <TextView
+            android:id="@+id/tv_nombre_compañiaPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/NombreCompañia"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/DireccionCodPos"
+            android:textColor="?colorPrimary"
+            android:textSize="16sp"
+            android:labelFor="@+id/tv_direccion_clientePedido"
+            />
+
+        <TextView
+            android:id="@+id/tv_direccion_clientePedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/DireccionCodPos"
+            android:textSize="16sp"
+            android:labelFor="@+id/tv_PaisCiuReClientePedido"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/SeleccionarCompañiaEnvio"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/spi_Via_Envio"
+            android:textSize="16sp"/>
+
+        <Spinner
+            android:id="@+id/spi_Via_Envio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:spinnerMode="dropdown"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/textViewEncabezadoEmpleados"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/spi_nombreEmpleadoPedido"
+            android:textSize="16sp"/>
+
+        <Spinner
+            android:id="@+id/spi_nombreEmpleadoPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:spinnerMode="dropdown"
+            android:background="@color/black"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/SeleccionarProducto"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/spi_nombreProducto"
+            android:textSize="16sp"/>
+
+        <Spinner
+            android:id="@+id/spi_nombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:spinnerMode="dropdown"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Cantidad"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_Cantidad"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/edt_Cantidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/Cantidad"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/UnidadesEnStock"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_UnidadesEnStock"/>
+
+        <TextView
+            android:id="@+id/tv_UnidadesEnStock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/UnidadesEnStock" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/UnidadesEnPedido"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_UnidadesEnPedido"/>
+
+        <TextView
+            android:id="@+id/tv_UnidadesEnPedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="@string/UnidadesEnPedido" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/PrecioPorUnidad"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/spi_PrecioPorUnidad"
+            android:textSize="16sp"
+            />
+
+
+         <TextView
+             android:id="@+id/tv_PrecioPorUnidad"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+             tools:hint="@string/PrecioPorUnidad"
+             android:textSize="16sp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/descuento"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/spi_Descuento"
+            android:textSize="16sp"
+            />
+
+        <Spinner
+            android:id="@+id/spi_descuento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:spinnerMode="dropdown"
+            android:background="@color/my_spinner_text_color"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/PrecioFlete"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_PrecioFlete"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_PrecioFlete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/PrecioFlete"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/PrecioLinea"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/tv_PrecioTotalPorLinea"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/InfoPrecioTotalLinea"
+            android:labelFor="@+id/tv_PrecioTotalPorLinea"
+            android:textSize="16sp"
+            android:textColor="#651010"
+            />
+        <TextView
+            android:id="@+id/tv_PrecioTotalPorLinea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/PrecioLinea"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+</ScrollView>

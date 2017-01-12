@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Good Eats</string>
+    <string name="action_settings">Settings</string>
+    <string name="boton">Cambiar dato</string>
+    <string name="CambiarActividad">Cambiar Actividad</string>
+    <string name="secText">Segunda Actividad</string>
+    <string name="texto">Hola Alfonso!!!</string>
+    <string name="textViewNombreTabla">Nombre tabla</string>
+    <string name="textViewEncabezado">Seleccione Tabla</string>
+    <string name="textViewEncabezadoEmpleados">Seleccione empleado</string>
+    <string name="SeleccionarCompañiaEnvio">Seleccione compañia envio</string>
+    <string name="SeleccionarCompañiaEnvioNueva">Seleccione compañia envio para cambiar</string>
+    <string name="ProductosEnPedido">Productos en pedido</string>
+    <string name="SeleccionarProducto">Seleccione producto</string>
+    <string name="SeleccionarProductoNuevo">Seleccione producto para cambiar</string>
+    <string name="SeleccionarPedidoId">Seleccione pedido</string>
+    <string name="SeleccionarClienteId">Seleccione cliente</string>
+    <string name="btnTablas">Tablas</string>
+    <string name="Employees">Empleados</string>
+    <string name="Customers">Clientes</string>
+    <string name="Products">Productos</string>
+    <string name="NombreCompañia">Nombre Compañia</string>
+    <string name="NombreContacto">Nombre Contacto</string>
+    <string name="NombreProducto">Nombre Producto</string>
+    <string name="NumeroPedido">Número Pedido</string>
+    <string name="fechaPedido">Fecha del pedido</string>
+    <string name="fechaRequerida">Fecha requerida</string>
+    <string name="fechaEntrega">Fecha entrega</string>
+    <string name="TelefonoFax">Telefono:---------Fax:</string>
+    <string name="SinPedidosPendientes">El cliente tiene todos los pedidos entregados</string>
+    <string name="Fax">Fax:</string>
+    <string name="ClienteID">ClienteID</string>
+    <string name="ProveedorID">Proveedor ID</string>
+    <string name="CategoriaID">Categoria ID</string>
+    <string name="nombreProveedor">Nombre Proveedor</string>
+    <string name="nombreProveedorPulsacion">Nombre Proveedor (+ Pulse Cuadro)</string>
+    <string name="nombreCategoriaPulsacion">Nombre Categoria (+ Pulse Cuadro)</string>
+    <string name="nombreProductoPulsacion">Productos (Pulse para ver +)</string>
+    <string name="nombreCategoria">Nombre Categoria</string>
+    <string name="Formato">Formato AAAAA</string>
+    <string name="UnidadesEnPedido">Unidades en Pedido</string>
+    <string name="LineasPedido">Lineas del pedido</string>
+    <string name="NombreCompleto">Nombre Empleado</string>
+    <string name="NivelDeReaprovisionamiento">Nivel de Reaprovisionamiento</string>
+    <string name="CantidadPorUnidad">Cantidad por unidad</string>
+    <string name="Cantidad">Cantidad</string>
+    <string name="CantidadEnPedido">Cantidad en pedido</string>
+    <string name="CantidadNueva">Introduzca nueva cantidad</string>
+    <string name="Iva">IVA</string>
+    <string name="nombreEmpleado">Nombre empleado</string>
+    <string name="Nombre">Nombre</string>
+    <string name="PrecioPorUnidad">Precio por unidad</string>
+    <string name="Interrumpido">Interrumpido</string>
+    <string name="MonedaEuro">€</string>
+    <string name="UnidadesEnStock">Unidades en Stock</string>
+    <string name="Apellido">Apellido</string>
+    <string name="TelefonoExtension">Telefono: Extension:</string>
+    <string name="TratoCortesia">Trato cortesía</string>
+    <string name="Extension">Extensión:</string>
+    <string name="Telefono">Teléfono:</string>
+    <string name="Puesto">Puesto</string>
+    <string name="Notas">Notas</string>
+    <string name="DireccionCodPos">Dirección: Código Postal:</string>
+    <string name="Direccion">Dirección:</string>
+    <string name="CodPos">Código Postal:</string>
+    <string name="Pais">Pais:</string>
+    <string name="homepage">Página Web</string>
+    <string name="Ciudad">Ciudad:</string>
+    <string name="Region">Region:</string>
+    <string name="class_tablas">TABLAS</string>
+    <string name="class_empleados">Empleados</string>
+    <string name="class_clientes">Clientes</string>
+    <string name="class_proveedores">Proveedores</string>
+    <string name="class_productos">Productos</string>
+    <string name="class_scan">Barcode Scan</string>
+    <string name="FormatoScanner">Formato</string>
+    <string name="Escanear">Escanear</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Resultado">Resultado</string>
+    <string name="CodigoBarras">Codigo de barras</string>
+    <string name="Acciones">Acciones</string>
+    <string name="class_envios">Envios</string>
+    <string name="class_pedidos">Pedidos</string>
+    <string name="Coma">,</string>
+    <string name="ViaEnvio">Compañia envio</string>
+    <string name="PrecioFlete">Precio flete</string>
+    <string name="PrecioLinea">Precio por linea</string>
+    <string name="PrecioTotal">Precio total</string>
+    <string name="InfoPrecioTotalLinea">Cantidad x PrecioUnidad - Descuento</string>
+    <string name="InfoPrecioTotal">Total(Cantidad x PrecioUnidad - Descuento) + Precio flete</string>
+    <string name="descuento">Descuento</string>
+    <string name="DescuentoEnPedido">Descuento del pedido</string>
+    <string name="DescuentoNuevo">Seleccione nuevo descuento</string>
+    <string name="descontado">Descontado</string>
+    <string name="tantoPorCiento">%</string>
+    <string name="Euro">€</string>
+    <string name="PaCiuRe">Pais:    Ciudad:    Region:</string>
+    <string name="reportar">Reporta A:</string>
+    <string name="Add_item">Anadir Empleado</string>
+    <string name="fechaNacimiento">Fecha nacimiento:</string>
+    <string name="fechaContratacion">Fecha Contratación</string>
+    <string name="fechas">Fecha nacimiento:  Fecha Contratación</string>
+    <string name="añadirImagen">Nombre archivo imagen (Nombre.png)</string>
+    <string name="Foto">Foto</string>
+    <string name="cámara">Cámara</string>
+    <string name="gallery">Galeria</string>
+    <string name="hecho">Hecho</string>
+    <string name="photo_source">Elija opción</string>
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_add">Añadir</string>
+    <string name="title_activity_add_edit">Añadir/Editar Empleado</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat.</string>
+    <string name="field_error">Ingresa un valor</string>
+    <string name="action_delete">Eliminar</string>
+</resources>
+

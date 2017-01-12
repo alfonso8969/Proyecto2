@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/añadirImagen"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_imagenProducto"
+            />
+
+        <EditText
+            android:id="@+id/edt_imagenProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:inputType="text"
+            tools:hint="@string/añadirImagen"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/NombreProducto"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_nombreProducto"/>
+
+        <EditText
+            android:id="@+id/edt_nombreProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/NombreProducto"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/nombreProveedorPulsacion"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/spi_nombreProveedor"
+            />
+
+        <Spinner
+            android:id="@+id/spi_nombreProveedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:spinnerMode="dropdown"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/nombreCategoriaPulsacion"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/spi_nombreCategoria"
+            />
+
+        <Spinner
+            android:id="@+id/spi_nombreCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:spinnerMode="dropdown"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/CantidadPorUnidad"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_CantidadPorUnidad"/>
+
+        <EditText
+            android:id="@+id/edt_CantidadPorUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/CantidadPorUnidad"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/PrecioPorUnidad"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_PrecioPorUnidad"
+            />
+
+        <EditText
+            android:id="@+id/edt_PrecioPorUnidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/PrecioPorUnidad"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/UnidadesEnStock"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_UnidadesEnStock"/>
+
+        <EditText
+            android:id="@+id/edt_UnidadesEnStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/UnidadesEnStock"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/UnidadesEnPedido"
+            android:textColor="?colorPrimary"
+            android:labelFor="@+id/edt_UnidadesEnPedido"/>
+
+        <EditText
+            android:id="@+id/edt_UnidadesEnPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/UnidadesEnPedido"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/NivelDeReaprovisionamiento"
+            android:textColor="?colorPrimary"
+            tools:ignore="HardcodedText"
+            android:labelFor="@+id/edt_NivelDeReaprovisionamiento"
+            />
+
+        <EditText
+            android:id="@+id/edt_NivelDeReaprovisionamiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/NivelDeReaprovisionamiento"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:text="@string/Interrumpido"
+            android:textColor="?colorPrimary"
+            tools:ignore="HardcodedText"
+            android:labelFor="@+id/edt_Interrumpido"
+            />
+
+        <EditText
+            android:id="@+id/edt_Interrumpido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:hint="@string/Interrumpido"
+            android:inputType="text"
+            />
+
+    </LinearLayout>
+</ScrollView>

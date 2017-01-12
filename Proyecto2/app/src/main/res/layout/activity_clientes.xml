@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_clientes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context="alfonso8969.com.proyecto2.activities.clientes.ClientesActivity">
+
+    <fragment
+
+        android:name="alfonso8969.com.proyecto2.fragments.clientes.ClientesListaFragment"
+        android:id="@+id/clientes_list_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="alfonso8969.com.proyecto2.fragments.clientes.ClientesListaFragment"
+        tools:layout="@android:layout/list_content"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="?listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp">
+
+
+    <TextView
+        android:id="@+id/labelNumeroPedido"
+        android:text="@string/NumeroPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17sp"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="64dp" />
+
+    <TextView
+        android:id="@+id/labelPedidoNombreCompañia"
+        android:text="@string/NombreCompañia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/labelNumeroPedido"
+        android:layout_alignParentStart="true"
+        android:textSize="17sp"
+        />
+    <TextView
+        android:id="@+id/numeroPedido"
+        android:text="@string/NumeroPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        tools:ignore="RelativeOverlap"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        />
+
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:id="@+id/idPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        />
+
+    <TextView
+        android:id="@+id/nombreCompañiaPedido"
+        android:text="@string/NombreCompañia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_below="@+id/labelPedidoNombreCompañia"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="@string/fechaPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelFechaPedido"
+        android:layout_marginTop="17dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"
+        android:layout_below="@+id/nombreCompañiaPedido"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/fechaPedido"
+        android:text="@string/fechaPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_alignBaseline="@+id/labelFechaPedido"
+        android:layout_alignBottom="@+id/labelFechaPedido"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp" />
+
+    <TextView
+        android:text="@string/fechaEntrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelFechaEntrega"
+        android:layout_below="@+id/labelFechaPedido"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:text="@string/fechaEntrega"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fechaEntrega"
+        android:layout_alignBaseline="@+id/labelFechaEntrega"
+        android:layout_alignBottom="@+id/labelFechaEntrega"
+        android:layout_alignStart="@+id/fechaPedido"
+        android:textSize="17sp"/>
+
+
+</RelativeLayout>

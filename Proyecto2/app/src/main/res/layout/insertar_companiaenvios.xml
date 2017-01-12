@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="72dp"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:text="@string/NombreCompañia"
+        android:textColor="@color/colorPrimary"
+        android:labelFor="@+id/edt_nombreCompañiaEnvios"/>
+
+    <EditText
+        android:id="@+id/edt_nombreCompañiaEnvios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:inputType="textPersonName"
+        tools:hint="@string/NombreCompañia"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:text="@string/Telefono"
+        android:textColor="@color/colorPrimary"
+        android:labelFor="@+id/edt_telefonoEnvios"/>
+
+    <EditText
+        android:id="@+id/edt_telefonoEnvios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:inputType="phone"
+        tools:hint="@string/Telefono" />
+
+
+
+</LinearLayout>
+</ScrollView>

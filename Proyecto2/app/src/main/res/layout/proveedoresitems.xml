@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="?listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NombreCompañia"
+        android:textSize="20sp"
+        android:labelFor="@+id/textproveedorNombreCompañia"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textproveedorNombreCompañia"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceListItem"
+        tools:text="@string/NombreCompañia"
+        android:layout_marginEnd="102dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/NombreContacto"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:labelFor="@+id/textproveedorNombreContacto"
+        />
+
+    <TextView
+        android:id="@+id/textproveedorNombreContacto"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?textAppearanceListItem"
+        android:text="@string/NombreContacto"
+        />
+
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/idProveedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="10dp"
+        />
+
+
+
+</LinearLayout>

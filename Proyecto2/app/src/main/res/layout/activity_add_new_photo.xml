@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_new_photo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="alfonso8969.com.proyecto2.activities.fotos.AddNewPhoto"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/añadirImagen"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:layout_weight="0.14"
+        android:background="#234562"/>
+
+    <ImageView
+        android:id="@+id/photoViewer"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_account_circle"
+        android:foregroundGravity="center"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/photoButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Foto"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/hechoButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/hecho"/>
+
+</LinearLayout>
+</ScrollView>
